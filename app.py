@@ -1,9 +1,7 @@
 import json
 
-from flask import Flask, request, send_from_directory, redirect, render_template, session
+from flask import Flask, request, send_from_directory
 from flask_cors import CORS, cross_origin
-from flask_wtf.csrf import CSRFProtect
-from flask_seasurf import SeaSurf
 import requests
 import os
 
